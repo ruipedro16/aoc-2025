@@ -46,12 +46,11 @@ public class Day01 {
 
     public static void part2() {
         int zero_crossings = 0;
-        int current_position = initial_position;
 
         for (int i = 0; i < input.size(); i++) {
             int movement = input.get(i);
+            int current_position = positions.get(i);
             zero_crossings += zeroCrossingsFromMovement(current_position, movement);
-            current_position = positions.get(i + 1);
         }
 
         System.out.println("Day 01 Part 2: " + zero_crossings);
