@@ -5,6 +5,7 @@ public class Main {
         // Day01.part1();
         // Day01.part2();
         // Day02.printResults();
-        Day03.printResults();
+        // Day03.printResults();
+        Day05.printResults();
     }
 }
